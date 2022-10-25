@@ -14,7 +14,6 @@ A connection links a public cloud and your data centers or work environments. Th
 .. figure:: /_static/images/en-us_image_0140303752.png
    :alt: **Figure 1** Direct Connect networking
 
-
    **Figure 1** Direct Connect networking
 
 Direct connections can be requested through email or call or by self-service.

@@ -15,7 +15,6 @@ You can access multiple VPCs using one direct connection. If you have created a 
 .. figure:: /_static/images/en-us_image_0151999509.png
    :alt: **Figure 1** A direct connection accessing to multiple VPCs
 
-
    **Figure 1** A direct connection accessing to multiple VPCs
 
 .. note::
@@ -37,7 +36,6 @@ Procedure
    .. figure:: /_static/images/en-us_image_0153233720.png
       :alt: **Figure 2** VPC A being the peer VPC in the peer connection
 
-
       **Figure 2** VPC A being the peer VPC in the peer connection
 
    a. On the **VPC Peering** page, click **peering-001** to view the peering connection details.
@@ -50,7 +48,6 @@ Procedure
 
    .. figure:: /_static/images/en-us_image_0153233718.png
       :alt: **Figure 3** VPC A being the local VPC in the peering connection
-
 
       **Figure 3** VPC A being the local VPC in the peering connection
 

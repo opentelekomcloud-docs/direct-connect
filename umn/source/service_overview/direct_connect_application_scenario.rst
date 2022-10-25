@@ -12,5 +12,4 @@ With Direct Connect, you can connect your network, data center, and colocation e
 .. figure:: /_static/images/en-us_image_0090333423.png
    :alt: **Figure 1** Scenario
 
-
    **Figure 1** Scenario

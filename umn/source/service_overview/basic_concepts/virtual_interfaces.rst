@@ -11,5 +11,4 @@ Virtual interfaces associate user gateways with virtual gateways, enabling local
 .. figure:: /_static/images/en-us_image_0161422124.png
    :alt: **Figure 1** Virtual interface networking
 
-
    **Figure 1** Virtual interface networking

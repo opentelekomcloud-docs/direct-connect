@@ -29,7 +29,6 @@ Procedure
    .. figure:: /_static/images/en-us_image_0210439733.png
       :alt: **Figure 1** Modify Virtual Gateway
 
-
       **Figure 1** Modify Virtual Gateway
 
 #. Click **OK**.

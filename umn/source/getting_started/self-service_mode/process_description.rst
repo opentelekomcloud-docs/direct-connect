@@ -12,5 +12,4 @@ Apply for a direct connection in the self-service mode to enable ECSs in your VP
 .. figure:: /_static/images/en-us_image_0210216090.png
    :alt: **Figure 1** Creating a direct connection in self-service mode
 
-
    **Figure 1** Creating a direct connection in self-service mode

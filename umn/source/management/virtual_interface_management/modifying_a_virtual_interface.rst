@@ -29,7 +29,6 @@ Procedure
    .. figure:: /_static/images/en-us_image_0210440993.png
       :alt: **Figure 1** Modify Virtual Interface
 
-
       **Figure 1** Modify Virtual Interface
 
 #. Click **OK**.

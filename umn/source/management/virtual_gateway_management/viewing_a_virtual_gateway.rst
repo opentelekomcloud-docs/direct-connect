@@ -27,7 +27,6 @@ Procedure
    .. figure:: /_static/images/en-us_image_0210439409.png
       :alt: **Figure 1** Virtual gateway details
 
-
       **Figure 1** Virtual gateway details
 
 .. |image1| image:: /_static/images/en-us_image_0070860784.png
