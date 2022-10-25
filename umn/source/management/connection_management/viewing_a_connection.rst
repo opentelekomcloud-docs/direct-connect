@@ -27,7 +27,6 @@ Procedure
    .. figure:: /_static/images/en-us_image_0210438743.png
       :alt: **Figure 1** Connection details
 
-
       **Figure 1** Connection details
 
 .. |image1| image:: /_static/images/en-us_image_0070860784.png

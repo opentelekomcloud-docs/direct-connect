@@ -29,7 +29,6 @@ Procedure
    .. figure:: /_static/images/en-us_image_0210438988.png
       :alt: **Figure 1** Modify Connection
 
-
       **Figure 1** Modify Connection
 
 #. Click **OK**.

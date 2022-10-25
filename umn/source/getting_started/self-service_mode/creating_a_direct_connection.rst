@@ -35,7 +35,6 @@ Procedure
    .. figure:: /_static/images/en-us_image_0210221955.png
       :alt: **Figure 1** Create Connection
 
-
       **Figure 1** Create Connection
 
    .. _en-us_topic_0085241899__table27593495173236:
@@ -97,7 +96,6 @@ Procedure
    .. figure:: /_static/images/en-us_image_0085245645.png
       :alt: **Figure 2** Create Virtual Gateway
 
-
       **Figure 2** Create Virtual Gateway
 
    .. _en-us_topic_0085241899__table128947911279:
@@ -138,7 +136,6 @@ Procedure
 
    .. figure:: /_static/images/en-us_image_0155708475.png
       :alt: **Figure 3** Create Virtual Interface
-
 
       **Figure 3** Create Virtual Interface
 

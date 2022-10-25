@@ -14,7 +14,6 @@ A local data center is connected to a VPC through a connection. To prevent a sin
 .. figure:: /_static/images/en-us_image_0159220007.png
    :alt: **Figure 1** Redundant connection access
 
-
    **Figure 1** Redundant connection access
 
 Operation Flowchart
@@ -26,7 +25,6 @@ You need to create two connections, with one connecting to Biere and the other t
 
 .. figure:: /_static/images/en-us_image_0159221137.png
    :alt: **Figure 2** Flowchart for creating a redundant connection
-
 
    **Figure 2** Flowchart for creating a redundant connection
 

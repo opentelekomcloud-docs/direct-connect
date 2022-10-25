@@ -27,7 +27,6 @@ To delete a connection, you first need to delete the associated virtual interfac
    .. figure:: /_static/images/en-us_image_0210229861.png
       :alt: **Figure 1** Deleting a virtual interface
 
-
       **Figure 1** Deleting a virtual interface
 
 #. After confirming the information in the displayed dialog box, click **Yes**.
@@ -40,7 +39,6 @@ To delete a connection, you first need to delete the associated virtual interfac
    .. figure:: /_static/images/en-us_image_0210229914.png
       :alt: **Figure 2** Deleting a virtual gateway
 
-
       **Figure 2** Deleting a virtual gateway
 
 #. After confirming the information in the displayed dialog box, click **Yes**.
@@ -52,7 +50,6 @@ To delete a connection, you first need to delete the associated virtual interfac
 
    .. figure:: /_static/images/en-us_image_0210230315.png
       :alt: **Figure 3** Deleting a connection
-
 
       **Figure 3** Deleting a connection
 

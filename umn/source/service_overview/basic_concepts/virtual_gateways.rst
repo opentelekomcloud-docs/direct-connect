@@ -11,5 +11,4 @@ Virtual gateways function as virtual routers, linking direct connections to VPCs
 .. figure:: /_static/images/en-us_image_0140247511.png
    :alt: **Figure 1** Virtual gateway networking
 
-
    **Figure 1** Virtual gateway networking
