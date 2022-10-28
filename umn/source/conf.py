@@ -93,7 +93,7 @@ html_static_path = ['_static']
 
 # -- Options for PDF output --------------------------------------------------
 latex_documents = [
-('index',
+    ('index',
      'dc-umn.tex',
      u'Direct Connect - User Guide',
      u'OpenTelekomCloud', 'manual'),
