@@ -1,16 +1,14 @@
-:original_name: en-us_topic_0032025289.html
+:original_name: dc_02_0100.html
 
-.. _en-us_topic_0032025289:
+.. _dc_02_0100:
 
 Getting Started
 ===============
 
--  :ref:`Self-service Mode <en-us_topic_0085241898>`
--  :ref:`Requesting Through Email or Call <en-us_topic_0093968703>`
+-  :ref:`Enabling Direct Connect <dc_02_0200>`
 
 .. toctree::
    :maxdepth: 1
    :hidden: 
 
-   self-service_mode/index
-   requesting_through_email_or_call/index
+   enabling_direct_connect/index

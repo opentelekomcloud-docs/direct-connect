@@ -8,7 +8,9 @@ Direct Connect - User Guide
    service_overview/index
    getting_started/index
    management/index
-   best_practice/index
-   faqs/index
+   permissions_management/index
+   monitoring/index
+   best_practices/index
+   faq/index
    change_history
    glossary

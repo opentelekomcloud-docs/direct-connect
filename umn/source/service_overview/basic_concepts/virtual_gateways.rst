@@ -5,10 +5,10 @@
 Virtual Gateways
 ================
 
-Virtual gateways function as virtual routers, linking direct connections to VPCs. A virtual gateway is bound to the VPC that is directly connected to a cloud private line. You can use the virtual gateway to connect to the network segment of the VPC to be accessed, and then use the VPC peering connections to access multiple VPCs. For details about how to access multiple VPCs through a VPC peering connection, see :ref:`Using a Direct Connection to Access Multiple VPCs <en-us_topic_0087378059>`.
+Virtual gateways function as virtual routers, linking Direct Connect connections to VPCs. A virtual gateway is associated with a VPC you want to access using a connection.
 
 
 .. figure:: /_static/images/en-us_image_0140247511.png
-   :alt: **Figure 1** Virtual gateway networking
+   :alt: **Figure 1** Virtual gateway
 
-   **Figure 1** Virtual gateway networking
+   **Figure 1** Virtual gateway
