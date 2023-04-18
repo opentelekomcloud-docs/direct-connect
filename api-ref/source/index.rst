@@ -8,6 +8,7 @@ Direct Connect - API Reference
    api_usage_guidelines
    api_overview
    api_usage
-   api/index
+   apis/index
+   permissions_policies_and_supported_actions/index
    public_parameters/index
    change_history

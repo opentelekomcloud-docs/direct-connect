@@ -7,12 +7,14 @@ API Overview
 
 Direct Connect APIs allow you to use all Direct Connect functions.
 
+.. _en-dc_topic_0055025301__table5876102613294:
+
 .. table:: **Table 1** Direct Connect APIs
 
    +--------------------+-------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | Category           | Sub-Category                  | Description                                                                                                                                                                                               |
+   | Category           | Subcategory                   | Description                                                                                                                                                                                               |
    +====================+===============================+===========================================================================================================================================================================================================+
-   | Direct Connect API | Connection                    | Used to create, query, and update connections.                                                                                                                                                            |
+   | Direct Connect API | Connection                    | Used to manage connections, including the API used to create a hosted connection, the APIs used to query, delete, and update a connection, and the API to query the connection list.                      |
    +--------------------+-------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    |                    | Virtual gateway               | Used to manage virtual gateways, including the APIs used to create, delete, query, and update a virtual gateway, and the API to query the virtual gateway list.                                           |
    +--------------------+-------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

@@ -5,12 +5,12 @@
 Public Parameters
 =================
 
--  :ref:`Common Returned Values <en-dc_topic_0055025342>`
+-  :ref:`Common Status Codes <en-dc_topic_0055025342>`
 -  :ref:`Error Codes <en-dc_topic_0055025343>`
 
 .. toctree::
    :maxdepth: 1
    :hidden: 
 
-   common_returned_values
+   common_status_codes
    error_codes
