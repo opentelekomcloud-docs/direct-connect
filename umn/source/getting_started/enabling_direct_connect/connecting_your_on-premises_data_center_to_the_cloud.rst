@@ -79,11 +79,14 @@ Restrictions and Limitations
 
 #. Configure the parameters.
 
+   .. _dc_02_0202__fig20556163316146:
 
-   .. figure:: /_static/images/en-us_image_0000001170083855.png
+   .. figure:: /_static/images/en-us_image_0000001662676706.png
       :alt: **Figure 1** Create Virtual Gateway
 
       **Figure 1** Create Virtual Gateway
+
+   .. _dc_02_0202__table886674631511:
 
    .. table:: **Table 2** Parameters for creating a virtual gateway
 
@@ -94,11 +97,28 @@ Restrictions and Limitations
       |                       |                                                                                                               |                            |
       |                       | The name can contain 1 to 64 characters.                                                                      |                            |
       +-----------------------+---------------------------------------------------------------------------------------------------------------+----------------------------+
-      | VPC                   | Specifies the VPC to be associated with the virtual gateway.                                                  | VPC-001                    |
+      | Attachment            | Specifies whether the virtual gateway is associated with a VPC or attached to an enterprise router.           | VPC                        |
       +-----------------------+---------------------------------------------------------------------------------------------------------------+----------------------------+
-      | Subnet CIDR Block     | Specifies the VPC CIDR blocks that can be accessed using Direct Connect.                                      | 192.168.x.x/24             |
+      | VPC                   | Specifies the VPC that the virtual gateway is attached to.                                                    | VPC-001                    |
+      |                       |                                                                                                               |                            |
+      |                       | This parameter is mandatory when you set **Attachment** to **VPC**.                                           |                            |
+      +-----------------------+---------------------------------------------------------------------------------------------------------------+----------------------------+
+      | Enterprise Router     | Specifies the enterprise router that the virtual gateway is attached to.                                      | ER-001                     |
+      |                       |                                                                                                               |                            |
+      |                       | This parameter is mandatory when you set **Attachment** to **Enterprise Router**.                             |                            |
+      +-----------------------+---------------------------------------------------------------------------------------------------------------+----------------------------+
+      | Local Subnet          | Specifies the VPC CIDR blocks that can be accessed using Direct Connect.                                      | 192.168.x.x/24             |
+      |                       |                                                                                                               |                            |
+      |                       | This parameter is mandatory when you set **Attachment** to **VPC**.                                           |                            |
       |                       |                                                                                                               |                            |
       |                       | You can add one or more CIDR blocks. Separate every entry with a comma (,) if there are multiple CIDR blocks. |                            |
+      +-----------------------+---------------------------------------------------------------------------------------------------------------+----------------------------+
+      | BGP ASN               | Specifies the BGP ASN used on the cloud.                                                                      | eu-de region: 65146        |
+      |                       |                                                                                                               |                            |
+      |                       | Enter the BGP ASN based on your region.                                                                       | eu-nl region: 64512        |
+      |                       |                                                                                                               |                            |
+      |                       | -  BGP ASN in the **eu-de** region: 65146                                                                     |                            |
+      |                       | -  BGP ASN in the **eu-nl** region: 64512                                                                     |                            |
       +-----------------------+---------------------------------------------------------------------------------------------------------------+----------------------------+
       | Description           | Provides supplementary information about the virtual gateway.                                                 | This is a virtual gateway. |
       |                       |                                                                                                               |                            |
@@ -118,6 +138,8 @@ Restrictions and Limitations
       :alt: **Figure 2** Create Virtual Interface
 
       **Figure 2** Create Virtual Interface
+
+   .. _dc_02_0202__d0e975:
 
    .. table:: **Table 3** Parameters for creating a virtual interface
 
@@ -159,7 +181,7 @@ Restrictions and Limitations
       |                            |                                                                                                                                                                  |                       |
       |                            | If there are two or more connections, select BGP routing.                                                                                                        |                       |
       +----------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
-      | BGP ASN                    | Specifies the ASN of the BGP peer.                                                                                                                               | 12345                 |
+      | BGP ASN                    | Specifies the BGP ASN used on your on-premises network.                                                                                                          | 12345                 |
       |                            |                                                                                                                                                                  |                       |
       |                            | This parameter is required when **Routing Mode** is set to **BGP**.                                                                                              |                       |
       +----------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
