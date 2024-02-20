@@ -21,15 +21,26 @@ Procedure
 
 #. In the navigation pane on the left, choose **Direct Connect** > **Virtual Gateways**.
 
-#. In the virtual gateway list, locate the target virtual gateway and click **Modify** under **Operation**.
+#. .. _dc_03_0702__li84751477215:
 
-#. Modify its name, subnet CIDR block, or description as prompted.
+   In the virtual gateway list, locate the target virtual gateway and click **Modify** under **Operation**.
+
+   -  If the virtual gateway is attached to a VPC, you can modify **Name**, **Local Subnet**, and **Description** of the virtual gateway.
 
 
-   .. figure:: /_static/images/en-us_image_0000001170023189.png
-      :alt: **Figure 1** Modifying a virtual gateway
+      .. figure:: /_static/images/en-us_image_0000001710875017.png
+         :alt: **Figure 1** Modifying a virtual gateway that is attached to a VPC
 
-      **Figure 1** Modifying a virtual gateway
+         **Figure 1** Modifying a virtual gateway that is attached to a VPC
+
+   -  If the virtual gateway is attached to an enterprise router, you can modify **Name** and **Description** of the virtual gateway.
+
+      .. _dc_03_0702__fig154761071127:
+
+      .. figure:: /_static/images/en-us_image_0000001696899493.png
+         :alt: **Figure 2** Modifying a virtual gateway that is attached to an enterprise router
+
+         **Figure 2** Modifying a virtual gateway that is attached to an enterprise router
 
 #. Click **OK**.
 

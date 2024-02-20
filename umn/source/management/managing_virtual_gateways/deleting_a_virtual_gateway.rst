@@ -23,8 +23,9 @@ Procedure
 
 #. In the virtual gateway list, locate the target virtual gateway and click **Delete** under **Operation**.
 
+   .. _dc_03_0703__fig18611164283413:
 
-   .. figure:: /_static/images/en-us_image_0000001123509798.png
+   .. figure:: /_static/images/en-us_image_0000001696901461.png
       :alt: **Figure 1** Deleting a virtual gateway
 
       **Figure 1** Deleting a virtual gateway
