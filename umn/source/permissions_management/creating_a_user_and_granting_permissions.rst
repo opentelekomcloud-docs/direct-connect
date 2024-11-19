@@ -5,7 +5,7 @@
 Creating a User and Granting Permissions
 ========================================
 
-Use `IAM <https://docs.otc.t-systems.com/identity-access-management/umn/service_overview/what_is_iam.html>`__ for fine-grained permissions control over your resources. With IAM, you can:
+Use `IAM <https://docs.otc.t-systems.com/usermanual/iam/iam_01_0026.html>`__ for fine-grained permissions control over your resources. With IAM, you can:
 
 -  Create IAM users for employees based on the organizational structure of your enterprise. Each IAM user has their own security credentials, providing access to cloud resources.
 -  Grant only the permissions required for users to perform a specific task.
@@ -18,7 +18,7 @@ The following is the procedure for granting permissions.
 Prerequisites
 -------------
 
-Before assigning permissions to user groups, you should learn about Direct Connect system policies and select the policies based on service requirements. For details about system-defined permissions of Direct Connect, see :ref:`Permissions <dc_01_0008>`. For system-defined permissions of other cloud services, see `Permissions <https://docs.otc.t-systems.com/additional/permissions.html>`__.
+Before assigning permissions to user groups, you should learn about Direct Connect system policies and select the policies based on service requirements. For details about system-defined permissions of Direct Connect, see :ref:`Permissions <dc_01_0008>`. For system-defined permissions of other cloud services, see `Permissions <https://docs.otc.t-systems.com/permissions/index.html>`__.
 
 Process Flow
 ------------
@@ -31,15 +31,15 @@ Process Flow
 
 #. .. _dc_03_0901__li1140112579375:
 
-   `Create a user group and assign permissions <https://docs.otc.t-systems.com/identity-access-management/umn/getting_started/creating_a_user_group_and_assigning_permissions.html>`__.
+   `Create a user group and assign permissions <https://docs.otc.t-systems.com/usermanual/iam/iam_01_0030.html>`__.
 
    Create a user group on the IAM console and assign the **DCAAS ReadOnlyAccess** policy to the group.
 
-#. `Create a user and add the user to the user group <https://docs.otc.t-systems.com/identity-access-management/umn/getting_started/creating_a_user_and_adding_the_user_to_a_user_group.html>`__
+#. `Create a user and add the user to the user group <https://docs.otc.t-systems.com/usermanual/iam/iam_01_0031.html>`__
 
    Create a user on the IAM console and add the user to the group created in :ref:`1 <dc_03_0901__li1140112579375>`.
 
-#. `Log in to the management console as the created user <https://docs.otc.t-systems.com/identity-access-management/umn/getting_started/logging_in_as_a_user.html>`__.
+#. `Log in to the management console as the created user <https://docs.otc.t-systems.com/usermanual/iam/iam_01_0032.html>`__.
 
    Switch to the authorized region and verify the permissions.
 

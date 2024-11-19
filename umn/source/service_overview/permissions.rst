@@ -13,7 +13,7 @@ Skip this part if your account does not require individual IAM users for permiss
 
 IAM is free. You pay only for the resources in your account.
 
-For more information, see `IAM Service Overview <https://docs.otc.t-systems.com/identity-access-management/umn/service_overview/what_is_iam.html>`__.
+For more information, see `IAM Service Overview <https://docs.otc.t-systems.com/usermanual/iam/iam_01_0026.html>`__.
 
 Direct Connect Permissions
 --------------------------
@@ -75,6 +75,8 @@ You can grant users permissions by using roles or policies.
    Modifying a hosted connection      Y                x
    Deleting a hosted connection       Y                x
    ================================== ================ ====================
+
+.. _dc_01_0008__en-us_topic_0000001172399057_en-us_topic_0173524723_en-us_topic_0173475706_en-us_topic_0170232209_section176871218183512:
 
 Helpful Links
 -------------

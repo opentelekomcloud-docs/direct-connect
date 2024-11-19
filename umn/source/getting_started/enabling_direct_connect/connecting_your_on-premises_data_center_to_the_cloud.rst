@@ -54,7 +54,7 @@ Restrictions and Limitations
       +-----------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------+
       | Port Type             | Specifies the port type. The value can be **1GE**, **10GE**, **40GE**, or **100GE**.                                                                | 40GE                                                     |
       +-----------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------+
-      | Bandwidth             | Specifies the bandwidth of the connection in the unit of Mbit/s                                                                                     | 100 Mbit/s                                               |
+      | Bandwidth             | Specifies the bandwidth of the connection, in Mbit/s.                                                                                               | 100 Mbit/s                                               |
       +-----------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------+
       | Name                  | Specifies the connection name. The name can contain a maximum of 64 characters. Only letters, digits, underscores (_), and hyphens (-) are allowed. | directconnect-001                                        |
       +-----------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------+
@@ -69,7 +69,7 @@ Restrictions and Limitations
 
 #. Wait for the notification from your account manager or customer service.
 
-#. After the connection is created, log in to the management console.
+#. Log in to the management console.
 
 #. In the service list in the upper left corner of the page, choose **Network** > **Direct Connect**.
 
@@ -152,7 +152,7 @@ Restrictions and Limitations
       |                            |                                                                                                                                                                  |                       |
       |                            | The name can contain 1 to 64 characters.                                                                                                                         |                       |
       +----------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
-      | Connection                 | Select an available connection.                                                                                                                                  | dc-123                |
+      | Connection                 | Specifies the connection you use to connect your on-premises data center to the cloud.                                                                           | dc-123                |
       +----------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
       | Virtual Gateway            | Select an available virtual gateway.                                                                                                                             | vgw-123               |
       +----------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+

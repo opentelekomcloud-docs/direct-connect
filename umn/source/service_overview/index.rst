@@ -7,6 +7,7 @@ Service Overview
 
 -  :ref:`Direct Connect <en-us_topic_0032053183>`
 -  :ref:`Application Scenarios <en-us_topic_0035014627>`
+-  :ref:`Quotas and Constraints <en-us_topic_0166140183>`
 -  :ref:`Permissions <dc_01_0008>`
 -  :ref:`Region and AZ <en-us_topic_0185627312>`
 -  :ref:`Basic Concepts <en-us_topic_0161425746>`
@@ -17,6 +18,7 @@ Service Overview
 
    direct_connect
    application_scenarios
+   quotas_and_constraints
    permissions
    region_and_az
    basic_concepts/index

@@ -40,7 +40,7 @@ Procedure
       +-----------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+
       | Operations Connection | Specifies the operations connection on which the hosted connection is created.                                                                      | Operations_connection_test       |
       +-----------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+
-      | Bandwidth             | Specifies the bandwidth of the connection in the unit of Mbit/s.                                                                                    | 2 Mbit/s                         |
+      | Bandwidth             | Specifies the bandwidth of the connection, in Mbit/s.                                                                                               | 2 Mbit/s                         |
       +-----------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+
       | Peering Position      | Specifies the physical location of the hosted connection. This address is an identifier.                                                            | "Marderbug-DC01"                 |
       |                       |                                                                                                                                                     |                                  |
