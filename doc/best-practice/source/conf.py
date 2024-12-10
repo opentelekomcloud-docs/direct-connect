@@ -110,7 +110,7 @@ html_copy_source = False
 latex_documents = [
     ('index',
      'dc-best-practice.tex',
-     u'Direct Connect - Best Practice',
+    u'Direct Connect - Best Practice',
      u'OpenTelekomCloud', 'manual'),
 ]
 
