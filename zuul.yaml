@@ -8,7 +8,6 @@
       sphinx_pdf_files:
         - dc-api-ref.pdf
         - dc-umn.pdf
-        - dc-best-practice.pdf
     check:
       jobs:
         - noop
