@@ -25,7 +25,7 @@ Procedure
 
 #. Configure the parameters.
 
-   .. _dc_04_1621__dc_04_0621_table27593495173236:
+   .. _dc_04_1621__en-us_topic_0000001517221297_table27593495173236:
 
    .. table:: **Table 1** Parameters for creating a hosted connection
 
@@ -42,7 +42,7 @@ Procedure
       +-----------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+
       | Bandwidth             | Specifies the bandwidth of the connection, in Mbit/s.                                                                                               | 2 Mbit/s                         |
       +-----------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+
-      | Peering Position      | Specifies the physical location of the hosted connection. This address is an identifier.                                                            | "Marderbug-DC01"                 |
+      | Peer Location         | Specifies the physical location of the hosted connection. This address is an identifier.                                                            | "Marderbug-DC01"                 |
       |                       |                                                                                                                                                     |                                  |
       |                       | -  Only letters, digits, underscores (_), and hyphens (-) are allowed.                                                                              |                                  |
       |                       | -  It can contain 0 to 64 characters.                                                                                                               |                                  |
@@ -56,4 +56,4 @@ Procedure
 
 #. Click **OK**.
 
-.. |image1| image:: /_static/images/en-us_image_0070860784.png
+.. |image1| image:: /_static/images/en-us_image_0000002429106732.png

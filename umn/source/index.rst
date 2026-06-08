@@ -9,7 +9,7 @@ Direct Connect - User Guide
    getting_started/index
    management/index
    permissions_management/index
-   monitoring/index
+   cloud_eye_monitoring/index
    best_practices/index
    faq/index
    change_history

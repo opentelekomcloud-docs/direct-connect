@@ -28,7 +28,7 @@ Procedure
    -  If the virtual gateway is attached to a VPC, you can modify **Name**, **Local Subnet**, and **Description** of the virtual gateway.
 
 
-      .. figure:: /_static/images/en-us_image_0000001710875017.png
+      .. figure:: /_static/images/en-us_image_0000002462395257.png
          :alt: **Figure 1** Modifying a virtual gateway that is attached to a VPC
 
          **Figure 1** Modifying a virtual gateway that is attached to a VPC
@@ -37,11 +37,11 @@ Procedure
 
       .. _dc_03_0702__fig154761071127:
 
-      .. figure:: /_static/images/en-us_image_0000001696899493.png
+      .. figure:: /_static/images/en-us_image_0000002428916858.png
          :alt: **Figure 2** Modifying a virtual gateway that is attached to an enterprise router
 
          **Figure 2** Modifying a virtual gateway that is attached to an enterprise router
 
 #. Click **OK**.
 
-.. |image1| image:: /_static/images/en-us_image_0000001169984961.png
+.. |image1| image:: /_static/images/en-us_image_0000002429106732.png

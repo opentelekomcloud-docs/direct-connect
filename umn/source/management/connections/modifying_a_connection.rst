@@ -8,7 +8,7 @@ Modifying a Connection
 Scenarios
 ---------
 
-After creating a connection, you can modify its settings.
+After a connection is created, you can modify its settings.
 
 Procedure
 ---------
@@ -23,14 +23,14 @@ Procedure
 
 #. In the connection list, locate the target connection and click **Modify** under **Operation**.
 
-#. Modify its name, bandwidth, peering position, or description as prompted.
+#. Modify its name, bandwidth, peer location, and description as needed.
 
 
-   .. figure:: /_static/images/en-us_image_0000001123470194.png
+   .. figure:: /_static/images/en-us_image_0000002603191073.png
       :alt: **Figure 1** Modifying a connection
 
       **Figure 1** Modifying a connection
 
 #. Click **OK**.
 
-.. |image1| image:: /_static/images/en-us_image_0000001123305174.png
+.. |image1| image:: /_static/images/en-us_image_0000002429106732.png

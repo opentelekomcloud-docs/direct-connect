@@ -13,6 +13,6 @@ Monitoring is critical to ensuring the performance, reliability, and availabilit
 
 This section covers the following content:
 
--  :ref:`Direct Connect Metrics <dc_04_0802>`
+-  :ref:`Supported Metrics <dc_04_0802>`
 -  :ref:`Configuring Alarm Rules <dc_04_0803>`
 -  :ref:`Viewing Metrics <dc_04_0804>`

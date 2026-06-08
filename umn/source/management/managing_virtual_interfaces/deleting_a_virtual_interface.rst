@@ -23,12 +23,12 @@ Procedure
 
 #. In the virtual interface list, locate the target virtual interface and click **Delete** under **Operation**.
 
-#. Click **Yes**.
+#. In the displayed dialog box, enter **DELETE** and click **OK**.
 
 
-   .. figure:: /_static/images/en-us_image_0000001123690320.png
+   .. figure:: /_static/images/en-us_image_0000002603311315.png
       :alt: **Figure 1** Deleting a virtual interface
 
       **Figure 1** Deleting a virtual interface
 
-.. |image1| image:: /_static/images/en-us_image_0000001123691058.png
+.. |image1| image:: /_static/images/en-us_image_0000002429106732.png
