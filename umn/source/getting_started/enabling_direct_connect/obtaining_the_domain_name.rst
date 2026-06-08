@@ -17,8 +17,9 @@ Obtaining the Domain Name
 
 #. In the **My Credentials** area, obtain the domain name of the user.
 
+   .. _dc_02_0203__en-us_topic_0046655038_fig19894662101419:
 
-   .. figure:: /_static/images/en-us_image_0000001358494102.png
+   .. figure:: /_static/images/en-us_image_0000002622150059.png
       :alt: **Figure 2** Domain Name
 
       **Figure 2** Domain Name

@@ -21,13 +21,12 @@ Procedure
 
 #. In the navigation pane on the left, choose **Direct Connect** > **Virtual Interfaces**.
 
-#. In the virtual interface list, click |image2| on the left of the target virtual interface to view its settings.
+#. In the virtual interface list, click the name of the target virtual interface to view its details.
 
 
-   .. figure:: /_static/images/en-us_image_0000001123689886.png
+   .. figure:: /_static/images/en-us_image_0000002603312607.png
       :alt: **Figure 1** Virtual interface settings
 
       **Figure 1** Virtual interface settings
 
-.. |image1| image:: /_static/images/en-us_image_0070860784.png
-.. |image2| image:: /_static/images/en-us_image_0000001123465010.png
+.. |image1| image:: /_static/images/en-us_image_0000002429106732.png

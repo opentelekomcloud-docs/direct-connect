@@ -5,7 +5,7 @@
 Management
 ==========
 
--  :ref:`Managing Connections <dc_03_0500>`
+-  :ref:`Connections <dc_03_0500>`
 -  :ref:`Managing Virtual Gateways <dc_03_0700>`
 -  :ref:`Managing Virtual Interfaces <dc_03_0800>`
 -  :ref:`Managing Operations or Hosted Connections <dc_04_1600>`
@@ -15,7 +15,7 @@ Management
    :maxdepth: 1
    :hidden: 
 
-   managing_connections/index
+   connections/index
    managing_virtual_gateways/index
    managing_virtual_interfaces/index
    managing_operations_or_hosted_connections/index

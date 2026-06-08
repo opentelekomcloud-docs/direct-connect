@@ -2,11 +2,11 @@
 
 .. _dc_04_0800:
 
-Monitoring
-==========
+Cloud Eye Monitoring
+====================
 
 -  :ref:`Overview <dc_04_0801>`
--  :ref:`Direct Connect Metrics <dc_04_0802>`
+-  :ref:`Supported Metrics <dc_04_0802>`
 -  :ref:`Configuring Alarm Rules <dc_04_0803>`
 -  :ref:`Viewing Metrics <dc_04_0804>`
 
@@ -15,6 +15,6 @@ Monitoring
    :hidden: 
 
    overview
-   direct_connect_metrics
+   supported_metrics
    configuring_alarm_rules
    viewing_metrics

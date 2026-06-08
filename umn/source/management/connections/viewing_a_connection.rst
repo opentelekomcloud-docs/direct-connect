@@ -8,7 +8,7 @@ Viewing a Connection
 Scenarios
 ---------
 
-After creating a connection, you can view its settings.
+After a connection is created, you can view its settings.
 
 Procedure
 ---------
@@ -21,13 +21,12 @@ Procedure
 
 #. In the navigation pane on the left, choose **Direct Connect** > **Connections**.
 
-#. In the connection list, click |image2| on the left of the target connection to view its settings.
+#. In the connection list, click the name of the target connection to view its settings.
 
 
-   .. figure:: /_static/images/en-us_image_0000001123309332.png
-      :alt: **Figure 1** Connection settings
+   .. figure:: /_static/images/en-us_image_0000002525421462.png
+      :alt: **Figure 1** Connection details
 
-      **Figure 1** Connection settings
+      **Figure 1** Connection details
 
-.. |image1| image:: /_static/images/en-us_image_0070860784.png
-.. |image2| image:: /_static/images/en-us_image_0000001170144843.png
+.. |image1| image:: /_static/images/en-us_image_0000002429106732.png

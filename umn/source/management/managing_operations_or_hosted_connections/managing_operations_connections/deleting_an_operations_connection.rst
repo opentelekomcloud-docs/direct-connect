@@ -10,7 +10,7 @@ Scenarios
 
 You can request to delete an operations connection if you do not need it any longer.
 
-.. _dc_04_1614__dc_04_0614_section73341071:
+.. _dc_04_1614__en-us_topic_0000001465500984_section73341071:
 
 Procedure
 ---------

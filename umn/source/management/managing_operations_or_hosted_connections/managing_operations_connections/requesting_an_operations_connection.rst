@@ -10,7 +10,7 @@ Scenarios
 
 If you are a partner, you can request operations connections.
 
-.. _dc_04_1611__dc_04_0611_section73341071:
+.. _dc_04_1611__en-us_topic_0000001466100244_section73341071:
 
 Procedure
 ---------
