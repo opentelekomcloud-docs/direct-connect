@@ -21,5 +21,5 @@ Procedure
 #. In the navigation pane on the left, choose **Direct Connect** > **Historical Connections**.
 #. In the connection list, click |image2| on the left of the target connection to view its settings.
 
-.. |image1| image:: /_static/images/en-us_image_0070860784.png
+.. |image1| image:: /_static/images/en-us_image_0000002429106732.png
 .. |image2| image:: /_static/images/en-us_image_0000001527454805.png
