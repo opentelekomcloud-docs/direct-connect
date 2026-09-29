@@ -1,6 +1,6 @@
-:original_name: en-dc_topic_0055025342.html
+:original_name: en-us_topic_0055025342.html
 
-.. _en-dc_topic_0055025342:
+.. _en-us_topic_0055025342:
 
 Common Status Codes
 ===================
