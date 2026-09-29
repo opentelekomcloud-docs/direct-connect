@@ -30,7 +30,7 @@ Procedure
    -  View the virtual gateway that is attached to a VPC.
 
 
-      .. figure:: /_static/images/en-us_image_0000002525424096.png
+      .. figure:: /_static/images/en-us_image_0000002626526090.png
          :alt: **Figure 1** Viewing a virtual gateway that is attached to a VPC
 
          **Figure 1** Viewing a virtual gateway that is attached to a VPC

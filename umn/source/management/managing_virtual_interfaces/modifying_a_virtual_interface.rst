@@ -8,7 +8,7 @@ Modifying a Virtual Interface
 Scenarios
 ---------
 
-After creating a virtual interface, you can modify its settings.
+After creating a virtual interface, you can modify its name.
 
 Procedure
 ---------
@@ -23,10 +23,10 @@ Procedure
 
 #. In the virtual interface list, locate the target virtual interface and click **Modify** under **Operation**.
 
-#. Modify its name, remote subnet, or description as prompted.
+#. Modify the virtual interface name as prompted.
 
 
-   .. figure:: /_static/images/en-us_image_0000002462395533.png
+   .. figure:: /_static/images/en-us_image_0000002656768065.png
       :alt: **Figure 1** Modifying a virtual interface
 
       **Figure 1** Modifying a virtual interface
