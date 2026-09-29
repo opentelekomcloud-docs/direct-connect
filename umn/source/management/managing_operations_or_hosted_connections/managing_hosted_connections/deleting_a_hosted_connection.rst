@@ -8,7 +8,7 @@ Deleting a Hosted Connection
 Scenarios
 ---------
 
-You can delete a hosted operation if do not need it any longer.
+You can delete a hosted operation if you no longer need it.
 
 Procedure
 ---------
@@ -21,4 +21,4 @@ Procedure
 #. In the hosted connection list, locate the hosted connection that you want to delete and click **Delete** in the **Operation** column.
 #. In the displayed dialog box, click **Yes**.
 
-.. |image1| image:: /_static/images/en-us_image_0070860784.png
+.. |image1| image:: /_static/images/en-us_image_0000002429106732.png

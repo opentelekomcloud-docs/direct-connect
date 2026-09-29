@@ -5,12 +5,12 @@
 Modifying a Hosted Connection
 =============================
 
-.. _dc_04_1623__dc_04_0623_section2490392594350:
+.. _dc_04_1623__en-us_topic_0000001517380333_section2490392594350:
 
 Scenarios
 ---------
 
-You can modify the name, bandwidth, peering position, and description of a hosted connection you created as a partner.
+You can modify the name, bandwidth, peer location, and description of a hosted connection you created as a partner.
 
 Procedure
 ---------
@@ -25,10 +25,10 @@ Procedure
 
 #. In the operations connection list, locate the operations connection that the hosted connection depends on and click **Manage Hosted Connection** in the **Operation** column.
 
-#. .. _dc_04_1623__dc_04_0623_li15845160:
+#. .. _dc_04_1623__en-us_topic_0000001517380333_li15845160:
 
-   In the hosted connection list, locate the hosted connection that you want to modify, click **Modify** in the **Operation** column.
+   In the hosted connection list, locate the hosted connection that you want to modify, and click **Modify** in the **Operation** column. In the displayed dialog box, modify the name, bandwidth, peer location, and description of the hosted connection.
 
-#. In the displayed dialog box, modify the hosted connection and then click **OK**.
+#. Click **OK**.
 
-.. |image1| image:: /_static/images/en-us_image_0070860784.png
+.. |image1| image:: /_static/images/en-us_image_0000002429106732.png

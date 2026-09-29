@@ -8,6 +8,7 @@ Managing Virtual Gateways
 -  :ref:`Viewing a Virtual Gateway <dc_03_0701>`
 -  :ref:`Modifying a Virtual Gateway <dc_03_0702>`
 -  :ref:`Deleting a Virtual Gateway <dc_03_0703>`
+-  :ref:`Managing Virtual Gateway Tags <dc_03_0704>`
 
 .. toctree::
    :maxdepth: 1
@@ -16,3 +17,4 @@ Managing Virtual Gateways
    viewing_a_virtual_gateway
    modifying_a_virtual_gateway
    deleting_a_virtual_gateway
+   managing_virtual_gateway_tags

@@ -26,11 +26,11 @@ Procedure
 #. Modify its name, remote subnet, or description as prompted.
 
 
-   .. figure:: /_static/images/en-us_image_0000001170210015.png
+   .. figure:: /_static/images/en-us_image_0000002462395533.png
       :alt: **Figure 1** Modifying a virtual interface
 
       **Figure 1** Modifying a virtual interface
 
 #. Click **OK**.
 
-.. |image1| image:: /_static/images/en-us_image_0000001169984963.png
+.. |image1| image:: /_static/images/en-us_image_0000002429106732.png

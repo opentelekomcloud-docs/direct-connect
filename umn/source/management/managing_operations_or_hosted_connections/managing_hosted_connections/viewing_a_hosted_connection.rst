@@ -20,5 +20,5 @@ Procedure
 #. In the operations connection list, locate the operations connection that the hosted connection depends on and click **Manage Hosted Connection** in the **Operation** column.
 #. In the hosted connection list, locate the hosted connection and click |image2| to view its settings.
 
-.. |image1| image:: /_static/images/en-us_image_0070860784.png
+.. |image1| image:: /_static/images/en-us_image_0000002429106732.png
 .. |image2| image:: /_static/images/en-us_image_0000001560319725.png

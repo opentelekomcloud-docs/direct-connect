@@ -20,4 +20,4 @@ Procedure
 #. In the operations connection list, locate the operations connection and click its name.
 #. On the displayed page, view detailed information about the operations connection.
 
-.. |image1| image:: /_static/images/en-us_image_0070860784.png
+.. |image1| image:: /_static/images/en-us_image_0000002429106732.png
