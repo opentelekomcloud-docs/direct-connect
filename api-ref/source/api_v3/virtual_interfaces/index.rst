@@ -2,8 +2,8 @@
 
 .. _topic_300000002:
 
-Virtual Interface
-=================
+Virtual Interfaces
+==================
 
 -  :ref:`Querying Details About a Virtual Interface <showvirtualinterface>`
 -  :ref:`Updating a Virtual Interface <updatevirtualinterface>`

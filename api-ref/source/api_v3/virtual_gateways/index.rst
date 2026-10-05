@@ -2,13 +2,13 @@
 
 .. _topic_300000001:
 
-Virtual Gateway
-===============
+Virtual Gateways
+================
 
 -  :ref:`Querying Details About a Virtual Gateway <showvirtualgateway>`
 -  :ref:`Updating a Virtual Gateway <updatevirtualgateway>`
 -  :ref:`Deleting a Virtual Gateway <deletevirtualgateway>`
--  :ref:`Querying Virtual Gateways <listvirtualgateways>`
+-  :ref:`Querying the Virtual Gateway List <listvirtualgateways>`
 -  :ref:`Creating a Virtual Gateway <createvirtualgateway>`
 
 .. toctree::
@@ -18,5 +18,5 @@ Virtual Gateway
    querying_details_about_a_virtual_gateway
    updating_a_virtual_gateway
    deleting_a_virtual_gateway
-   querying_virtual_gateways
+   querying_the_virtual_gateway_list
    creating_a_virtual_gateway

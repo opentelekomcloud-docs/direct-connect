@@ -112,7 +112,7 @@ Examples
                "id" : "6ecd9cf3-ca64-46c7-863f-f2eb1b9e838a",
                "tenant_id" : "6fbe9263116a4b68818cf1edce16bc4f",
                "name" : "endpoint group1",
-               "description" : "",
+               "description" : null,
                "endpoints" : [ "10.2.0.0/24", "10.3.0.0/24" ],
                "type" : "cidr"
           }

@@ -1,53 +1,59 @@
-:original_name: en-us_topic_0055025337.html
+:original_name: en-us_topic_0055025339.html
 
-.. _en-us_topic_0055025337:
+.. _en-us_topic_0055025339:
 
-Querying the Direct Connect Endpoint Group List
-===============================================
+Querying a Direct Connect Endpoint Group
+========================================
 
 Function
 --------
 
-This API is used to query the Direct Connect endpoint group list.
+This API is used to query a Direct Connect endpoint group.
 
 URI
 ---
 
-GET /v2.0/dcaas/dc-endpoint-groups
+GET /v2.0/dcaas/dc-endpoint-groups/{endpoint_group_id}
+
+.. table:: **Table 1** Parameter description
+
+   +-------------------+--------+-----------+--------------------------------------------------------+
+   | Parameter         | Type   | Mandatory | Description                                            |
+   +===================+========+===========+========================================================+
+   | endpoint_group_id | String | Yes       | Specifies the ID of the Direct Connect endpoint group. |
+   +-------------------+--------+-----------+--------------------------------------------------------+
 
 Request
 -------
 
-:ref:`Table 1 <en-us_topic_0055025337__en-us_topic_0070658771_table2198437322244>` lists the request parameter.
+:ref:`Table 2 <en-us_topic_0055025339__en-us_topic_0070658800_table2198437322244>` lists the request parameter.
 
-.. _en-us_topic_0055025337__en-us_topic_0070658771_table2198437322244:
+.. _en-us_topic_0055025339__en-us_topic_0070658800_table2198437322244:
 
-.. table:: **Table 1** Request parameter
+.. table:: **Table 2** Request parameter
 
-   +-----------------+-----------------+-----------------+------------------------------------------------------------+
-   | Parameter       | Type            | Mandatory       | Description                                                |
-   +=================+=================+=================+============================================================+
-   | fields          | String          | No              | Specifies the parameters expected to be returned.          |
-   |                 |                 |                 |                                                            |
-   |                 |                 |                 | If you do not specify it, all parameters will be returned. |
-   +-----------------+-----------------+-----------------+------------------------------------------------------------+
+   +-------------------+--------+-----------+--------------------------------------------------------+
+   | Parameter         | Type   | Mandatory | Description                                            |
+   +===================+========+===========+========================================================+
+   | endpoint_group_id | String | Yes       | Specifies the ID of the Direct Connect endpoint group. |
+   +-------------------+--------+-----------+--------------------------------------------------------+
 
 Response
 --------
 
-:ref:`Table 2 <en-us_topic_0055025337__en-us_topic_0070658771_table33326591155835>` lists the response parameter.
+:ref:`Table 3 <en-us_topic_0055025339__en-us_topic_0070658800_table33326591155835>` lists the response parameter.
 
-.. _en-us_topic_0055025337__en-us_topic_0070658771_table33326591155835:
+.. _en-us_topic_0055025339__en-us_topic_0070658800_table33326591155835:
 
-.. table:: **Table 2** Response parameter
+.. table:: **Table 3** Response parameter
 
-   +--------------------+------+---------------------------------------------------+
-   | Parameter          | Type | Description                                       |
-   +====================+======+===================================================+
-   | dc_endpoint_groups | List | Specifies the Direct Connect endpoint group list. |
-   +--------------------+------+---------------------------------------------------+
+   ================= ========== ===========================================
+   Parameter         Type       Description
+   ================= ========== ===========================================
+   dc_endpoint_group Dictionary Specifies the **dc_endpoint_group** object.
+   ================= ========== ===========================================
 
-.. table:: **Table 3** Description of field **dc_endpoint_groups**
+.. table:: **Table 4** Description of field **dc_endpoint_group**
 
    +-----------------------+-----------------------+-------------------------------------------------------------------------------------+
    | Parameter             | Type                  | Description                                                                         |
@@ -72,31 +78,23 @@ Examples
 
 -  Example request
 
-   #. Querying all Direct Connect endpoint groups
-
    .. code-block:: text
 
-      GET /v2.0/dcaas/dc-endpoint-groups
-
-   2. Querying a Direct Connect endpoint group by ID
-
-   .. code-block:: text
-
-      GET /v2.0/dcaas/dc-endpoint-groups?id=6ecd9cf3-ca64-46c7-863f-f2eb1b9e838a
+      GET /v2.0/dcaas/dc-endpoint-groups/{endpoint_group_id}
 
 -  Example response
 
    .. code-block::
 
       {
-           "dc_endpoint_groups" : [{
+          "dc_endpoint_group" : {
                "id" : "6ecd9cf3-ca64-46c7-863f-f2eb1b9e838a",
                "tenant_id" : "6fbe9263116a4b68818cf1edce16bc4f",
                "name" : "endpoint group1",
-               "description" : "",
+               "description" : null,
                "endpoints" : [ "10.2.0.0/24", "10.3.0.0/24" ],
                "type" : "cidr"
-          }]
+          }
       }
 
 Status Codes

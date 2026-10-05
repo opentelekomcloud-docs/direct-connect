@@ -9,6 +9,7 @@ Permissions Policies and Supported Actions (APIs v3)
 -  :ref:`Connections <dc_08_3002>`
 -  :ref:`Virtual Gateways <dc_08_3003>`
 -  :ref:`Virtual Interfaces <dc_08_3004>`
+-  :ref:`Tags <dc_08_3007>`
 
 .. toctree::
    :maxdepth: 1
@@ -18,3 +19,4 @@ Permissions Policies and Supported Actions (APIs v3)
    connections
    virtual_gateways
    virtual_interfaces
+   tags

@@ -1,33 +1,33 @@
-:original_name: DeleteDirectConnect.html
+:original_name: DeleteHostedDirectConnect.html
 
-.. _DeleteDirectConnect:
+.. _DeleteHostedDirectConnect:
 
-Deleting a Connection
-=====================
+Deleting a Hosted Connection
+============================
 
 Function
 --------
 
-This API is used to delete pay-per-use connections only. To delete yearly/monthly connections, you need to first unsubscribe them.
+This API is used by partners to delete a hosted connection.
 
 URI
 ---
 
-DELETE /v3/{project_id}/dcaas/direct-connects/{direct_connect_id}
+DELETE /v3/{project_id}/dcaas/hosted-connects/{hosted_connect_id}
 
-.. table:: **Table 1** Path Parameters
+.. table:: **Table 1** URI parameters
 
-   +-------------------+-----------------+-----------------+------------------------------+
-   | Parameter         | Mandatory       | Type            | Description                  |
-   +===================+=================+=================+==============================+
-   | direct_connect_id | Yes             | String          | Specifies the connection ID. |
-   |                   |                 |                 |                              |
-   |                   |                 |                 | Minimum: **36**              |
-   |                   |                 |                 |                              |
-   |                   |                 |                 | Maximum: **36**              |
-   +-------------------+-----------------+-----------------+------------------------------+
-   | project_id        | Yes             | String          | Specifies the project ID.    |
-   +-------------------+-----------------+-----------------+------------------------------+
+   +-------------------+-----------------+-----------------+-------------------------------------+
+   | Parameter         | Mandatory       | Type            | Description                         |
+   +===================+=================+=================+=====================================+
+   | project_id        | Yes             | String          | Specifies the project ID.           |
+   +-------------------+-----------------+-----------------+-------------------------------------+
+   | hosted_connect_id | Yes             | String          | Specifies the hosted connection ID. |
+   |                   |                 |                 |                                     |
+   |                   |                 |                 | Minimum: **36**                     |
+   |                   |                 |                 |                                     |
+   |                   |                 |                 | Maximum: **36**                     |
+   +-------------------+-----------------+-----------------+-------------------------------------+
 
 Request Parameters
 ------------------
@@ -52,11 +52,11 @@ None
 Example Requests
 ----------------
 
-Deleting a connection
+Deleting a hosted connection
 
 .. code-block:: text
 
-   DELETE https://{dc_endpoint}/v3/6fbe9263116a4b68818cf1edce16bc4f/dcaas/direct-connects/6ecd9cf3-ca64-46c7-863f-f2eb1b9e838a
+   DELETE https://{dc_endpoint}/v3/08d5a9564a704afda6039ae2babbef3c/dcaas/hosted-connects/94c2b814-99dc-939a-e811-ae84c61ea3ff
 
 Example Responses
 -----------------

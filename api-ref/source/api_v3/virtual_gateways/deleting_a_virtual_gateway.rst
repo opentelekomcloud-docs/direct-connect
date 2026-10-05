@@ -1,33 +1,28 @@
-:original_name: DeleteHostedDirectConnect.html
+:original_name: DeleteVirtualGateway.html
 
-.. _DeleteHostedDirectConnect:
+.. _DeleteVirtualGateway:
 
-Deleting a Hosted Connection
-============================
+Deleting a Virtual Gateway
+==========================
 
 Function
 --------
 
-This API is used by partners to delete hosted connections.
+The API is used to delete a specific virtual gateway.
 
 URI
 ---
 
-DELETE /v3/{project_id}/dcaas/hosted-connects/{hosted_connect_id}
+DELETE /v3/{project_id}/dcaas/virtual-gateways/{virtual_gateway_id}
 
-.. table:: **Table 1** Path Parameters
+.. table:: **Table 1** URI parameters
 
-   +-------------------+-----------------+-----------------+-------------------------------------+
-   | Parameter         | Mandatory       | Type            | Description                         |
-   +===================+=================+=================+=====================================+
-   | project_id        | Yes             | String          | Specifies the project ID.           |
-   +-------------------+-----------------+-----------------+-------------------------------------+
-   | hosted_connect_id | Yes             | String          | Specifies the hosted connection ID. |
-   |                   |                 |                 |                                     |
-   |                   |                 |                 | Minimum: **36**                     |
-   |                   |                 |                 |                                     |
-   |                   |                 |                 | Maximum: **36**                     |
-   +-------------------+-----------------+-----------------+-------------------------------------+
+   ================== ========= ====== =================================
+   Parameter          Mandatory Type   Description
+   ================== ========= ====== =================================
+   project_id         Yes       String Specifies the project ID.
+   virtual_gateway_id Yes       String Specifies the virtual gateway ID.
+   ================== ========= ====== =================================
 
 Request Parameters
 ------------------
@@ -52,11 +47,11 @@ None
 Example Requests
 ----------------
 
-Deleting a hosted connection
+Deleting a virtual gateway
 
 .. code-block:: text
 
-   DELETE https://{dc_endpoint}/v3/08d5a9564a704afda6039ae2babbef3c/dcaas/hosted-connects/94c2b814-99dc-939a-e811-ae84c61ea3ff
+   DELETE https://{dc_endpoint}/v3/08d5a9564a704afda6039ae2babbef3c/dcaas/virtual-gateways/20082c1b-3c99-48d8-8e8c-116af5d7e9f0
 
 Example Responses
 -----------------

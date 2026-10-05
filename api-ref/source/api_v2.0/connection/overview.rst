@@ -10,7 +10,7 @@ Overview
 Object Introduction
 -------------------
 
-This section describes the APIs for managing connections, including the API used to create a hosted connection, the APIs used to query, update, and delete a connection, and the API used to query the connection list.
+This topic describes the APIs for managing connections, including the API used to create a hosted connection, the APIs used to query, update, and delete a connection, and the API used to query the connection list.
 
 .. _en-us_topic_0055025314__en-us_topic_0070676569_section51721924204921:
 

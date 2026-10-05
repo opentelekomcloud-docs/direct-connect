@@ -2,8 +2,8 @@
 
 .. _en-us_topic_0055025309:
 
-APIs v2.0
-=========
+API v2.0
+========
 
 -  :ref:`API Version <en-us_topic_0055025310>`
 -  :ref:`Connection <en-us_topic_0055025313>`

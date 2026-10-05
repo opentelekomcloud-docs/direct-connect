@@ -2,8 +2,8 @@
 
 .. _topic_300000000:
 
-Connection
-==========
+Connections
+===========
 
 -  :ref:`Querying Details About a Connection <showdirectconnect>`
 -  :ref:`Updating a Connection <updatedirectconnect>`

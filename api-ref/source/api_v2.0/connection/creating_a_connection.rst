@@ -12,7 +12,7 @@ This API is used to create a hosted connection.
 
 .. note::
 
-   This API can only be used to create hosted connections.
+   This API can only be used to create a hosted connection.
 
 URI
 ---
@@ -50,6 +50,10 @@ For details about the **direct_connect** field, see :ref:`Table 2 <en-us_topic_0
    |                 |                 |                 | Angle brackets (<>) are not allowed.                                                                                                                                                     |
    +-----------------+-----------------+-----------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | port_type       | String          | Yes             | Specifies the type of the port used by the connection. The value can be **1G**, **10G**, **40G**, or **100G**.                                                                           |
+   |                 |                 |                 |                                                                                                                                                                                          |
+   |                 |                 |                 | .. note::                                                                                                                                                                                |
+   |                 |                 |                 |                                                                                                                                                                                          |
+   |                 |                 |                 |    This is a reserved parameter. The actual value is the port type of the operations connection that the hosted connection relies on.                                                    |
    +-----------------+-----------------+-----------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | bandwidth       | Integer         | Yes             | Specifies the bandwidth of the connection in Mbit/s.                                                                                                                                     |
    +-----------------+-----------------+-----------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -71,7 +75,7 @@ For details about the **direct_connect** field, see :ref:`Table 2 <en-us_topic_0
    +-----------------+-----------------+-----------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | type            | String          | No              | Specifies the connection type. The value can only be **hosted**.                                                                                                                         |
    +-----------------+-----------------+-----------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | hosting_id      | String          | No              | Specifies the ID of the operations connection on which the hosted connection is created.                                                                                                 |
+   | hosting_id      | String          | No              | Specifies the ID of the operations connection that the hosted connection is created on.                                                                                                  |
    +-----------------+-----------------+-----------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | charge_mode     | String          | No              | Specifies the billing mode. This parameter is not mandatory. The value can only be **port** for operations connections.                                                                  |
    |                 |                 |                 |                                                                                                                                                                                          |

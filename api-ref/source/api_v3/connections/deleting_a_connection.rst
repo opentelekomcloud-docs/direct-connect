@@ -1,33 +1,33 @@
-:original_name: DeleteVirtualInterface.html
+:original_name: DeleteDirectConnect.html
 
-.. _DeleteVirtualInterface:
+.. _DeleteDirectConnect:
 
-Deleting a Virtual Interface
-============================
+Deleting a Connection
+=====================
 
 Function
 --------
 
-This API is used to delete a virtual interface.
+This API is used to delete a connection.
 
 URI
 ---
 
-DELETE /v3/{project_id}/dcaas/virtual-interfaces/{virtual_interface_id}
+DELETE /v3/{project_id}/dcaas/direct-connects/{direct_connect_id}
 
-.. table:: **Table 1** Path Parameters
+.. table:: **Table 1** URI parameters
 
-   +----------------------+-----------------+-----------------+-------------------------------------+
-   | Parameter            | Mandatory       | Type            | Description                         |
-   +======================+=================+=================+=====================================+
-   | project_id           | Yes             | String          | Specifies the project ID.           |
-   +----------------------+-----------------+-----------------+-------------------------------------+
-   | virtual_interface_id | Yes             | String          | Specifies the virtual interface ID. |
-   |                      |                 |                 |                                     |
-   |                      |                 |                 | Minimum: **36**                     |
-   |                      |                 |                 |                                     |
-   |                      |                 |                 | Maximum: **36**                     |
-   +----------------------+-----------------+-----------------+-------------------------------------+
+   +-------------------+-----------------+-----------------+------------------------------+
+   | Parameter         | Mandatory       | Type            | Description                  |
+   +===================+=================+=================+==============================+
+   | direct_connect_id | Yes             | String          | Specifies the connection ID. |
+   |                   |                 |                 |                              |
+   |                   |                 |                 | Minimum: **36**              |
+   |                   |                 |                 |                              |
+   |                   |                 |                 | Maximum: **36**              |
+   +-------------------+-----------------+-----------------+------------------------------+
+   | project_id        | Yes             | String          | Specifies the project ID.    |
+   +-------------------+-----------------+-----------------+------------------------------+
 
 Request Parameters
 ------------------
@@ -52,11 +52,11 @@ None
 Example Requests
 ----------------
 
-Deleting a virtual interface
+Deleting a connection
 
 .. code-block:: text
 
-   DELETE https://{dc_endpoint}/v3/0605768a3300d5762f82c01180692873/dcaas/virtual-interfaces/0d0fdf63-f2c4-491c-8866-d504796189be
+   DELETE https://{dc_endpoint}/v3/6fbe9263116a4b68818cf1edce16bc4f/dcaas/direct-connects/6ecd9cf3-ca64-46c7-863f-f2eb1b9e838a
 
 Example Responses
 -----------------
