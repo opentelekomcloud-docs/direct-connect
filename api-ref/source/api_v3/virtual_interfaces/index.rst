@@ -10,6 +10,9 @@ Virtual Interfaces
 -  :ref:`Deleting a Virtual Interface <deletevirtualinterface>`
 -  :ref:`Querying the Virtual Interface List <listvirtualinterfaces>`
 -  :ref:`Creating a Virtual Interface <createvirtualinterface>`
+-  :ref:`Updating a Virtual Interface Peer <updatevifpeer>`
+-  :ref:`Deleting a Virtual Interface Peer <deletevifpeer>`
+-  :ref:`Creating a Virtual Interface Peer <createvifpeer>`
 
 .. toctree::
    :maxdepth: 1
@@ -20,3 +23,6 @@ Virtual Interfaces
    deleting_a_virtual_interface
    querying_the_virtual_interface_list
    creating_a_virtual_interface
+   updating_a_virtual_interface_peer
+   deleting_a_virtual_interface_peer
+   creating_a_virtual_interface_peer

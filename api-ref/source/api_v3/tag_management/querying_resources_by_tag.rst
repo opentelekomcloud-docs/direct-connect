@@ -85,7 +85,7 @@ Request Parameters
    +-----------+-----------+------------------+-----------------------------------------------------------------------------------------------------------------+
    | Parameter | Mandatory | Type             | Description                                                                                                     |
    +===========+===========+==================+=================================================================================================================+
-   | key       | Yes       | String           | Specifies the tag key. A key can contain a maximum of 127 Unicode characters. The tag key cannot be left blank. |
+   | key       | Yes       | String           | Specifies the tag key. A key can contain a maximum of 128 Unicode characters. The tag key cannot be left blank. |
    +-----------+-----------+------------------+-----------------------------------------------------------------------------------------------------------------+
    | values    | Yes       | Array of strings | Lists the tag values. It can contain a maximum of 255 Unicode characters.                                       |
    +-----------+-----------+------------------+-----------------------------------------------------------------------------------------------------------------+
