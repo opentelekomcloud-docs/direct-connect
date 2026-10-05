@@ -37,3 +37,4 @@ Direct Connect supports the following actions that can be defined in custom poli
 -  :ref:`Virtual Gateways <dc_08_3003>`: contains actions supported by the APIs of Direct Connect virtual gateway, such as creating a virtual gateway.
 -  :ref:`Virtual Interfaces <dc_08_3004>`: contains actions supported by the APIs of Direct Connect virtual interfaces, for example, creating a virtual interface.
 -  :ref:`Tags <dc_08_3007>`: contains actions supported by the APIs of Direct Connect tags, for example, adding a tag to a resource.
+-  :ref:`Virtual Interface Peers <dc_08_3005>`: contains actions supported by the APIs of Direct Connect virtual interface peers, for example, creating a virtual interface peer.
