@@ -8,6 +8,7 @@ Managing Virtual Interfaces
 -  :ref:`Viewing a Virtual Interface <dc_03_0801>`
 -  :ref:`Modifying a Virtual Interface <dc_03_0802>`
 -  :ref:`Deleting a Virtual Interface <dc_03_0803>`
+-  :ref:`Managing Virtual Interface Peers <dc_04_0405>`
 -  :ref:`Managing Virtual Interface Tags <dc_03_0804>`
 
 .. toctree::
@@ -17,4 +18,5 @@ Managing Virtual Interfaces
    viewing_a_virtual_interface
    modifying_a_virtual_interface
    deleting_a_virtual_interface
+   managing_virtual_interface_peers
    managing_virtual_interface_tags

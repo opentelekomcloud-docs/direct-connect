@@ -24,7 +24,7 @@ Procedure
 #. In the virtual interface list, click the name of the target virtual interface to view its details.
 
 
-   .. figure:: /_static/images/en-us_image_0000002603312607.png
+   .. figure:: /_static/images/en-us_image_0000002626528252.png
       :alt: **Figure 1** Virtual interface settings
 
       **Figure 1** Virtual interface settings

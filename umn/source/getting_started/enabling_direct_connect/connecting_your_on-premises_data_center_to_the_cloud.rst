@@ -81,7 +81,7 @@ Restrictions and Limitations
 
    .. _dc_02_0202__fig20556163316146:
 
-   .. figure:: /_static/images/en-us_image_0000002555047133.png
+   .. figure:: /_static/images/en-us_image_0000002626168210.png
       :alt: **Figure 1** Create Virtual Gateway
 
       **Figure 1** Create Virtual Gateway
@@ -90,59 +90,71 @@ Restrictions and Limitations
 
    .. table:: **Table 2** Parameters for creating a virtual gateway
 
-      +-----------------------+--------------------------------------------------------------------------------------------------------------------------+----------------------------+
-      | Parameter             | Description                                                                                                              | Example Value              |
-      +=======================+==========================================================================================================================+============================+
-      | Name                  | Specifies the virtual gateway name.                                                                                      | vgw-123                    |
-      |                       |                                                                                                                          |                            |
-      |                       | The name can contain 1 to 64 characters.                                                                                 |                            |
-      +-----------------------+--------------------------------------------------------------------------------------------------------------------------+----------------------------+
-      | Enterprise Project    | Specifies the enterprise project by which virtual gateways are centrally managed. Select an existing enterprise project. | default                    |
-      +-----------------------+--------------------------------------------------------------------------------------------------------------------------+----------------------------+
-      | Attach To             | Specifies whether the virtual gateway is associated with a VPC or attached to an enterprise router.                      | VPC                        |
-      +-----------------------+--------------------------------------------------------------------------------------------------------------------------+----------------------------+
-      | VPC                   | Specifies the VPC that the virtual gateway is attached to.                                                               | VPC-001                    |
-      |                       |                                                                                                                          |                            |
-      |                       | This parameter is mandatory when you set **Attach To** to **VPC**.                                                       |                            |
-      +-----------------------+--------------------------------------------------------------------------------------------------------------------------+----------------------------+
-      | Enterprise Router     | Specifies the enterprise router that the virtual gateway is attached to.                                                 | ER-001                     |
-      |                       |                                                                                                                          |                            |
-      |                       | This parameter is mandatory when you set **Attach To** to **Enterprise Router**.                                         |                            |
-      +-----------------------+--------------------------------------------------------------------------------------------------------------------------+----------------------------+
-      | Local Subnet          | Specifies the VPC CIDR blocks that can be accessed using Direct Connect.                                                 | 192.168.x.x/24             |
-      |                       |                                                                                                                          |                            |
-      |                       | This parameter is mandatory when you set **Attach To** to **VPC**.                                                       |                            |
-      |                       |                                                                                                                          |                            |
-      |                       | You can add one or more CIDR blocks. Separate every entry with a comma (,) if there are multiple CIDR blocks.            |                            |
-      +-----------------------+--------------------------------------------------------------------------------------------------------------------------+----------------------------+
-      | BGP ASN               | Specifies the BGP ASN used on the cloud.                                                                                 | eu-de region: 65146        |
-      |                       |                                                                                                                          |                            |
-      |                       | Enter the BGP ASN based on your region.                                                                                  | eu-nl region: 64512        |
-      |                       |                                                                                                                          |                            |
-      |                       | -  BGP ASN in the **eu-de** region: 65146                                                                                |                            |
-      |                       | -  BGP ASN in the **eu-nl** region: 64512                                                                                |                            |
-      +-----------------------+--------------------------------------------------------------------------------------------------------------------------+----------------------------+
-      | Tag                   | Adds tags to help you identify your virtual gateways. A tag consists of a tag key and a tag value.                       | example_key1               |
-      |                       |                                                                                                                          |                            |
-      |                       | A maximum of 20 tag key-value pairs are supported.                                                                       | example_value1             |
-      |                       |                                                                                                                          |                            |
-      |                       | **Each tag key:**                                                                                                        |                            |
-      |                       |                                                                                                                          |                            |
-      |                       | -  Cannot be left blank.                                                                                                 |                            |
-      |                       | -  Must be unique for each resource.                                                                                     |                            |
-      |                       | -  Can contain a maximum of 128 Unicode characters.                                                                      |                            |
-      |                       | -  Can contain only digits, letters, hyphens (-), underscores (_), at signs (@), and periods (.).                        |                            |
-      |                       |                                                                                                                          |                            |
-      |                       | **Each tag value:**                                                                                                      |                            |
-      |                       |                                                                                                                          |                            |
-      |                       | -  Can be left blank.                                                                                                    |                            |
-      |                       | -  Can contain a maximum of 255 Unicode characters.                                                                      |                            |
-      |                       | -  Can contain only digits, letters, hyphens (-), underscores (_), at signs (@), and periods (.).                        |                            |
-      +-----------------------+--------------------------------------------------------------------------------------------------------------------------+----------------------------+
-      | Description           | Provides supplementary information about the virtual gateway.                                                            | This is a virtual gateway. |
-      |                       |                                                                                                                          |                            |
-      |                       | You can enter 0 to 128 characters.                                                                                       |                            |
-      +-----------------------+--------------------------------------------------------------------------------------------------------------------------+----------------------------+
+      +-----------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------+
+      | Parameter             | Description                                                                                                                                                      | Example Value              |
+      +=======================+==================================================================================================================================================================+============================+
+      | Name                  | Specifies the virtual gateway name.                                                                                                                              | vgw-123                    |
+      |                       |                                                                                                                                                                  |                            |
+      |                       | The name can contain 1 to 64 characters.                                                                                                                         |                            |
+      +-----------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------+
+      | Enterprise Project    | Specifies the enterprise project by which virtual gateways are centrally managed. Select an existing enterprise project.                                         | default                    |
+      +-----------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------+
+      | Attach To             | Specifies whether the virtual gateway is associated with a VPC or attached to an enterprise router.                                                              | VPC                        |
+      +-----------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------+
+      | VPC                   | Specifies the VPC that the virtual gateway is attached to.                                                                                                       | VPC-001                    |
+      |                       |                                                                                                                                                                  |                            |
+      |                       | This parameter is mandatory when you set **Attach To** to **VPC**.                                                                                               |                            |
+      +-----------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------+
+      | Enterprise Router     | Specifies the enterprise router that the virtual gateway is attached to.                                                                                         | ER-001                     |
+      |                       |                                                                                                                                                                  |                            |
+      |                       | This parameter is mandatory when you set **Attach To** to **Enterprise Router**.                                                                                 |                            |
+      +-----------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------+
+      | Local Subnet          | Specifies the VPC CIDR blocks that can be accessed using Direct Connect.                                                                                         | IPv4                       |
+      |                       |                                                                                                                                                                  |                            |
+      |                       | This parameter is mandatory when you set **Attach To** to **VPC**.                                                                                               |                            |
+      |                       |                                                                                                                                                                  |                            |
+      |                       | You can select either IPv4 or IPv6, or both.                                                                                                                     |                            |
+      +-----------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------+
+      | IPv4                  | Specifies the IPv4 VPC CIDR blocks.                                                                                                                              | 192.168.x.x/24             |
+      |                       |                                                                                                                                                                  |                            |
+      |                       | This parameter is mandatory when you select **IPv4** for **Local Subnet**.                                                                                       |                            |
+      |                       |                                                                                                                                                                  |                            |
+      |                       | You can add multiple CIDR blocks and separate them with commas (,) or line breaks. This allows you to access multiple IPv4 VPC CIDR blocks using one connection. |                            |
+      +-----------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------+
+      | IPv6                  | Specifies the IPv6 VPC CIDR blocks.                                                                                                                              | 1050:32xx::/64             |
+      |                       |                                                                                                                                                                  |                            |
+      |                       | This parameter is mandatory when you select **IPv6** for **Local Subnet**.                                                                                       |                            |
+      |                       |                                                                                                                                                                  |                            |
+      |                       | You can add multiple CIDR blocks and separate them with commas (,) or line breaks. This allows you to access multiple IPv6 VPC CIDR blocks using one connection. |                            |
+      +-----------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------+
+      | BGP ASN               | Specifies the BGP ASN used on the cloud.                                                                                                                         | eu-de region: 65146        |
+      |                       |                                                                                                                                                                  |                            |
+      |                       | Enter the BGP ASN based on your region.                                                                                                                          | eu-nl region: 64512        |
+      |                       |                                                                                                                                                                  |                            |
+      |                       | -  BGP ASN in the **eu-de** region: 65146                                                                                                                        |                            |
+      |                       | -  BGP ASN in the **eu-nl** region: 64512                                                                                                                        |                            |
+      +-----------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------+
+      | Tag                   | Adds tags to help you identify your virtual gateways. A tag consists of a tag key and a tag value.                                                               | example_key1               |
+      |                       |                                                                                                                                                                  |                            |
+      |                       | A maximum of 20 tag key-value pairs are supported.                                                                                                               | example_value1             |
+      |                       |                                                                                                                                                                  |                            |
+      |                       | **Each tag key:**                                                                                                                                                |                            |
+      |                       |                                                                                                                                                                  |                            |
+      |                       | -  Cannot be left blank.                                                                                                                                         |                            |
+      |                       | -  Must be unique for each resource.                                                                                                                             |                            |
+      |                       | -  Can contain a maximum of 128 Unicode characters.                                                                                                              |                            |
+      |                       | -  Can contain only digits, letters, hyphens (-), underscores (_), at signs (@), and periods (.).                                                                |                            |
+      |                       |                                                                                                                                                                  |                            |
+      |                       | **Each tag value:**                                                                                                                                              |                            |
+      |                       |                                                                                                                                                                  |                            |
+      |                       | -  Can be left blank.                                                                                                                                            |                            |
+      |                       | -  Can contain a maximum of 255 Unicode characters.                                                                                                              |                            |
+      |                       | -  Can contain only digits, letters, hyphens (-), underscores (_), at signs (@), and periods (.).                                                                |                            |
+      +-----------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------+
+      | Description           | Provides supplementary information about the virtual gateway.                                                                                                    | This is a virtual gateway. |
+      |                       |                                                                                                                                                                  |                            |
+      |                       | You can enter 0 to 128 characters.                                                                                                                               |                            |
+      +-----------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------+
 
 #. Click **OK**.
 
@@ -153,7 +165,7 @@ Restrictions and Limitations
 #. Configure the parameters.
 
 
-   .. figure:: /_static/images/en-us_image_0000002555172851.png
+   .. figure:: /_static/images/en-us_image_0000002626357030.png
       :alt: **Figure 2** Create Virtual Interface
 
       **Figure 2** Create Virtual Interface
@@ -202,15 +214,28 @@ Restrictions and Limitations
       |                            | -  Can contain a maximum of 255 Unicode characters.                                                                                                                                                                                           |                       |
       |                            | -  Can contain only digits, letters, hyphens (-), underscores (_), at signs (@), and periods (.).                                                                                                                                             |                       |
       +----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
+      | IP Address Family          | Specifies the address type of the virtual interface.                                                                                                                                                                                          | IPv4                  |
+      |                            |                                                                                                                                                                                                                                               |                       |
+      |                            | **IPv4** is selected by default.                                                                                                                                                                                                              |                       |
+      |                            |                                                                                                                                                                                                                                               |                       |
+      |                            | You can select IPv4 or IPv6.                                                                                                                                                                                                                  |                       |
+      |                            |                                                                                                                                                                                                                                               |                       |
+      |                            | .. caution::                                                                                                                                                                                                                                  |                       |
+      |                            |                                                                                                                                                                                                                                               |                       |
+      |                            |    CAUTION:                                                                                                                                                                                                                                   |                       |
+      |                            |    If the IP address family of the selected gateway does not match that of the virtual interface peer, the virtual interfaces cannot communicate with each other after being created.                                                         |                       |
+      +----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
       | Local Gateway              | Specifies the IP address for connecting to the cloud network.                                                                                                                                                                                 | 10.0.x.1/30           |
       +----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
       | Remote Gateway             | Specifies the IP address for connecting to the on-premises network.                                                                                                                                                                           | 10.0.x.2/30           |
       |                            |                                                                                                                                                                                                                                               |                       |
       |                            | The IP addresses of the remote gateway and local gateway must be in the same network segment. Generally, a 30-bit mask is used.                                                                                                               |                       |
       +----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
-      | Remote Subnet              | Specifies the subnets and masks of your network. If multiple remote subnets are available, use commas (,) to separate them.                                                                                                                   | 192.168.x.x/24        |
+      | Remote Subnet              | Specifies the subnets and masks of your network.                                                                                                                                                                                              | 192.168.x.x/24        |
       |                            |                                                                                                                                                                                                                                               |                       |
-      |                            | .. caution::                                                                                                                                                                                                                                  | 10.1.x.x/24           |
+      |                            | If you enter multiple remote subnets, separate them with commas (,) or line breaks.                                                                                                                                                           | 10.1.x.x/24           |
+      |                            |                                                                                                                                                                                                                                               |                       |
+      |                            | .. caution::                                                                                                                                                                                                                                  |                       |
       |                            |                                                                                                                                                                                                                                               |                       |
       |                            |    CAUTION:                                                                                                                                                                                                                                   |                       |
       |                            |                                                                                                                                                                                                                                               |                       |
